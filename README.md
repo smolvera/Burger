@@ -3,48 +3,38 @@
 
 ## Getting Started
 - This app uses the MVC framework for organizing your code into seperate files
-- Create the following files inside of FriendFinder folder: 
+- Create the following files inside of burger folder: 
     * .gitignore
-    * app (folder)
-      * data (folder)
-        - friends.js
-      * public (folder)
-        - home.html
-        - survey.html
-      * routing (folder)
-        - apiRoutes.js
-        - htmlRoutes.js
+    * config (folder)
+      * connection.js
+      * orm.js
+    * controllers (folder)
+        - burgers_controllers.js
+    * db (folder)
+        - schema.sql
+        - seeds.sql
+    * models
+        - burger.js
+    * node_modules (.gitignore)
+    * package.json
+    * public (folder)
+        - (to be created at a later date)
+      * views (folder)
+        - index.handlebars
+        - layouts (folder)
+            - main.handlebars
     * node_modules 
     * package.json
     * server.js
 
 
-- Run command in Terminal or Gitbash 'npm install express body-parser'
+- Run command in Terminal or Gitbash 'npm install (all packages necessary)'
 - Run command in Terminal or Gitbash 'node server.js
 - Run 'ctrl + c' to exit each mode
-
-### What Each JavaScript Does
-
-1. `friends.js`
-
-    * Display's user's survey results.
-
-    * Add's new user's survey results.
-
------------------------
-
-2. `apiRoutes.js`
-
-    * Takes the user's data and compares it to the all data.
-    * Finds the best match by obtaining the totalDifference and comparing it to the other data.
-    * Display's the best match
------------------------
-
-3. `htmlRoutes.js`
-    * Exports the home page and survey page based on the api path called.
+.
 
 ## Left to do
-- when pressing the submit button, error is displayed and the best match does not show. 
+- create pages test.html and in assets folder create css and image for design 
 
 
 ## Technologies used
