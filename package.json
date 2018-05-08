@@ -1,0 +1,27 @@
+{
+  "name": "burger",
+  "version": "1.0.0",
+  "description": "An App that allows the user to input a type of burger. Once the user submits the burger, it is rendered ont the HTML page with a button that allows the user to eat the burger. If the user clicks the button, the burger's position changes to the opposite side of te screen to represent it has been eaten. ",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smolvera/Burger.git"
+  },
+  "author": "Samantha Olvera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smolvera/Burger/issues"
+  },
+  "homepage": "https://github.com/smolvera/Burger#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "method-override": "^2.3.10",
+    "mysql": "^2.15.0"
+  }
+}
