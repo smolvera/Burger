@@ -10,7 +10,7 @@ router.get("/", function(req, res) {
     });
 });
 
-// check this code!!!!!!!!Error: ER_PARSE_ERROR:
+
 router.put("/burgers/update", function(req, res) {
     burger.update(req.body.burger_id, function(result) {
         res.redirect('/');
