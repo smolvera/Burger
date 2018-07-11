@@ -1,6 +1,9 @@
 # Burger
 - A app that allows a user to create a burger, add it to the database and html page, as well as update the created burger once it has been eaten (devoured). 
 
+# Click to view app here: (https://murmuring-cove-92759.herokuapp.com/)
+
+
 ## Getting Started
 - This app uses the MVC framework for organizing your code into seperate files
 - Create the following files inside of burger folder: 
