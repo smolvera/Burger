@@ -1,7 +1,7 @@
 # Burger
 - A app that allows a user to create a burger, add it to the database and html page, as well as update the created burger once it has been eaten (devoured). 
 
-# Click to view app here: (https://murmuring-cove-92759.herokuapp.com/)
+# Click to view app here: - [Burger App](https://murmuring-cove-92759.herokuapp.com/)
 
 
 ## Getting Started
